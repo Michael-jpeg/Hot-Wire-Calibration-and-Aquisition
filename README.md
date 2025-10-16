@@ -5,17 +5,17 @@ This repository contains the .py files necessary for Hot Wire Anemometry. This i
 ## Dependencies 
 The following packages must be installed for the code to run
 
-'''> from PyDAQmx import Task
-'''> from PyDAQmx.DAQmxConstants import *
-'''> from PyDAQmx.DAQmxFunctions import *
-'''> from scipy.optimize import curve_fit
-'''> import numpy as np
-'''> import matplotlib.pyplot as plt
-'''> import pandas as pd
-'''> import ctypes
-'''> import os
-'''> import scipy.signal
-'''> from scipy.signal import detrend
+```> from PyDAQmx import Task
+```> from PyDAQmx.DAQmxConstants import *
+```> from PyDAQmx.DAQmxFunctions import *
+```> from scipy.optimize import curve_fit
+> import numpy as np
+> import matplotlib.pyplot as plt
+> import pandas as pd
+> import ctypes
+> import os
+> import scipy.signal
+> from scipy.signal import detrend
 
 * Note: The `PyDAQmx` library interfaces with National Instruments hardware, which requires the **NI-DAQmx drivers** to communicate with your DAQ device.  
 > Download the drivers from the official NI website: [NI DAQmx Driver Downloads](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html)
