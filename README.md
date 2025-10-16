@@ -5,10 +5,10 @@ This repository contains the .py files necessary for Hot Wire Anemometry. This i
 ## Dependencies 
 The following packages must be installed for the code to run
 
-```> from PyDAQmx import Task
-```> from PyDAQmx.DAQmxConstants import *
-```> from PyDAQmx.DAQmxFunctions import *
-```> from scipy.optimize import curve_fit
+> from PyDAQmx import Task <br>
+> from PyDAQmx.DAQmxConstants import * <br>
+> from PyDAQmx.DAQmxFunctions import *
+> from scipy.optimize import curve_fit
 > import numpy as np
 > import matplotlib.pyplot as plt
 > import pandas as pd
