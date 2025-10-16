@@ -7,15 +7,15 @@ The following packages must be installed for the code to run
 
 > from PyDAQmx import Task <br>
 > from PyDAQmx.DAQmxConstants import * <br>
-> from PyDAQmx.DAQmxFunctions import *
-> from scipy.optimize import curve_fit
-> import numpy as np
-> import matplotlib.pyplot as plt
-> import pandas as pd
-> import ctypes
-> import os
-> import scipy.signal
-> from scipy.signal import detrend
+> from PyDAQmx.DAQmxFunctions import * <br>
+> from scipy.optimize import curve_fit <br>
+> import numpy as np <br>
+> import matplotlib.pyplot as plt <br>
+> import pandas as pd <br>
+> import ctypes <br>
+> import os <br>
+> import scipy.signal <br>
+> from scipy.signal import detrend <br>
 
 * Note: The `PyDAQmx` library interfaces with National Instruments hardware, which requires the **NI-DAQmx drivers** to communicate with your DAQ device.  
 > Download the drivers from the official NI website: [NI DAQmx Driver Downloads](https://www.ni.com/en-us/support/downloads/drivers/download.ni-daqmx.html)
